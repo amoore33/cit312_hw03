@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaooCP.ttf) format('truetype');
+}
+nav {
+  background-color: #ff8000;
+}
+footer {
+  background-color: #ff0080;
+}
+* {
+  margin: 0;
+}
+body {
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+}
+nav,
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 50px;
+}
+#wrapper {
+  background-color: #cccccc;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#wrapper div:nth-of-type(1) {
+  border-radius: 8px;
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+  background-color: #ff0000;
+}
+#wrapper div:nth-of-type(2) {
+  border-radius: 8px;
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  background-color: #0000ff;
+}
+#wrapper div:nth-of-type(3) {
+  border-radius: 8px;
+  border: 2px solid black;
+  width: 250px;
+  height: 250px;
+  background-color: #008000;
+}
+#wrapper div:nth-of-type(4) {
+  border-radius: 8px;
+  border: 2px solid black;
+  width: 50px;
+  height: 50px;
+  background-color: #800080;
+}
+/*# sourceMappingURL=style.css.map */
